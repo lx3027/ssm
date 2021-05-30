@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lx.crud.controller.MvcEmpTest" time="13.599" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\workspace\ssm\ssm_CRUD\target\test-classes;D:\workspace\ssm\ssm_CRUD\target\classes;C:\Users\Administrator\.m2\repository\com\github\pagehelper\pagehelper\5.2.0\pagehelper-5.2.0.jar;C:\Users\Administrator\.m2\repository\com\github\jsqlparser\jsqlparser\3.2\jsqlparser-3.2.jar;C:\Users\Administrator\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.3.5\mybatis-generator-core-1.3.5.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\4.3.7.RELEASE\spring-webmvc-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\4.3.7.RELEASE\spring-aop-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\4.3.7.RELEASE\spring-beans-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\4.3.7.RELEASE\spring-context-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\4.3.7.RELEASE\spring-core-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\4.3.7.RELEASE\spring-expression-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\4.3.7.RELEASE\spring-web-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Administrator\.m2\repository\org\hibernate\validator\hibernate-validator\7.0.1.Final\hibernate-validator-7.0.1.Final.jar;C:\Users\Administrator\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.0\jakarta.validation-api-3.0.0.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\4.3.7.RELEASE\spring-jdbc-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\4.3.7.RELEASE\spring-tx-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\4.3.7.RELEASE\spring-test-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\4.3.7.RELEASE\spring-aspects-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\Administrator\.m2\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar;C:\Users\Administrator\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\Administrator\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire529569874947404928\surefirebooter2683467440060119418.jar C:\Users\Administrator\AppData\Local\Temp\surefire529569874947404928 2021-05-12T20-55-10_436-jvmRun1 surefire7979391899135061037tmp surefire_03099641600660327758tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\workspace\ssm\ssm_CRUD\target\test-classes;D:\workspace\ssm\ssm_CRUD\target\classes;C:\Users\Administrator\.m2\repository\com\github\pagehelper\pagehelper\5.2.0\pagehelper-5.2.0.jar;C:\Users\Administrator\.m2\repository\com\github\jsqlparser\jsqlparser\3.2\jsqlparser-3.2.jar;C:\Users\Administrator\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.3.5\mybatis-generator-core-1.3.5.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\4.3.7.RELEASE\spring-webmvc-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\4.3.7.RELEASE\spring-aop-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\4.3.7.RELEASE\spring-beans-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\4.3.7.RELEASE\spring-context-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\4.3.7.RELEASE\spring-core-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\4.3.7.RELEASE\spring-expression-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\4.3.7.RELEASE\spring-web-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Administrator\.m2\repository\org\hibernate\validator\hibernate-validator\7.0.1.Final\hibernate-validator-7.0.1.Final.jar;C:\Users\Administrator\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.0\jakarta.validation-api-3.0.0.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\4.3.7.RELEASE\spring-jdbc-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\4.3.7.RELEASE\spring-tx-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\4.3.7.RELEASE\spring-test-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\4.3.7.RELEASE\spring-aspects-4.3.7.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\Administrator\.m2\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar;C:\Users\Administrator\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\Administrator\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\workspace\ssm\ssm_CRUD"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire529569874947404928\surefirebooter2683467440060119418.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="D:\workspace\ssm\ssm_CRUD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="idea.version2019.3.5" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Maven\maven3\bin;C:\Program Files\MySQL\mysql-8.0.18-winx64\bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Java\jdk-12.0.2\jre\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\Desktop\shortcut;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\李和荀java\soft\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testPage" classname="com.lx.crud.controller.MvcEmpTest" time="2.521">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.lx.crud.controller.MvcEmpTest.testPage(MvcEmpTest.java:51)
+</error>
+    <system-err><![CDATA[5月 12, 2021 8:55:16 下午 org.springframework.test.context.web.WebTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+5月 12, 2021 8:55:17 下午 org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@770c2e6b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a052a00, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d826d77, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61009542, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77e9807f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@448ff1a8]
+5月 12, 2021 8:55:18 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [applicationContext.xml]
+5月 12, 2021 8:55:19 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml]
+5月 12, 2021 8:55:19 下午 org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@45dd4eda: startup date [Wed May 12 20:55:19 CST 2021]; root of context hierarchy
+5月 12, 2021 8:55:20 下午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+5月 12, 2021 8:55:21 下午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+信息: Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/depts]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.DepartmentController.getDepts()
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/emp],methods=[POST]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.EmployeeController.saveEmp(com.lx.crud.bean.Employee,org.springframework.validation.BindingResult)
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/emp/{empId}],methods=[PUT]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.EmployeeController.saveEmp(com.lx.crud.bean.Employee,javax.servlet.http.HttpServletRequest)
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/emp/{id}],methods=[GET]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.EmployeeController.getEmp(java.lang.Integer)
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/emp/{ids}],methods=[DELETE]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.EmployeeController.deleteEmp(java.lang.String)
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/checkuser]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.EmployeeController.checkuser(java.lang.String)
+5月 12, 2021 8:55:23 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+信息: Mapped "{[/emps]}" onto public com.lx.crud.bean.Msg com.lx.crud.controller.EmployeeController.getEmpsWithJson(java.lang.Integer)
+5月 12, 2021 8:55:24 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+信息: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@45dd4eda: startup date [Wed May 12 20:55:19 CST 2021]; root of context hierarchy
+5月 12, 2021 8:55:24 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+信息: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@45dd4eda: startup date [Wed May 12 20:55:19 CST 2021]; root of context hierarchy
+5月 12, 2021 8:55:25 下午 org.springframework.mock.web.MockServletContext log
+信息: Initializing Spring FrameworkServlet ''
+5月 12, 2021 8:55:25 下午 org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+信息: FrameworkServlet '': initialization started
+5月 12, 2021 8:55:25 下午 org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+信息: FrameworkServlet '': initialization completed in 36 ms
+5月 12, 2021 8:55:25 下午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge0ysahqtdaz8z6h8sz|2f6e28bc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge0ysahqtdaz8z6h8sz|2f6e28bc, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ssm_crud?serverTimezone=GMT%2B8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {password=******, user=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+]]></system-err>
+  </testcase>
+</testsuite>

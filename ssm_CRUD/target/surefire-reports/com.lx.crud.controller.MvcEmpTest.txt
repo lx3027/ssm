@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.lx.crud.controller.MvcEmpTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.599 s <<< FAILURE! - in com.lx.crud.controller.MvcEmpTest
+testPage(com.lx.crud.controller.MvcEmpTest)  Time elapsed: 2.521 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.lx.crud.controller.MvcEmpTest.testPage(MvcEmpTest.java:51)
+
